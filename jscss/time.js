@@ -13,7 +13,7 @@ function showTime() {
 	minutes = "0" + minutes;
 	if (seconds < 10)
 	seconds = "0" + seconds;
-	var currentTimeString = "<br><br>Dear CUTE:<br>"
+	var currentTimeString = "<br><br>Dear Cute:<br>"
 		+ "I have been in love with you for:<br> "
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp"
 		+ "<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" + days +" </c>day "
@@ -22,7 +22,7 @@ function showTime() {
 		+"<c style=\"color: #CCFF99; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:24px\" >" +seconds+" </c>sec<br>"
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp只愿执子之手,与子偕老.<br>"
 		+ "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
-		+	"<c style=\"color: #CCCCCC; text-shadow:2px 3px 3px #222; font-family:Microsoft YaHei; font-size:20px\" >-------- LL </c>";
+		+	"<c style=\"color: #4472C4; text-shadow:2px 3px 3px #0ff; font-family:Microsoft YaHei; font-size:20px\" >-------- LL </c>";
 	document.getElementById("show").innerHTML=currentTimeString;  //改这地方
 	window.setTimeout("showTime()", 1000);
 }
